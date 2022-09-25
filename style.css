@@ -2,6 +2,83 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body{
+    background-color: #b2bec3;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.profil{
+    background-color: white;
+    width: 550px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgb(102, 98, 98);
+}
+
+.profil img{
+        height: 150px;
+        weight: 150px;
+        border-radius: 50%;
+        position: absolute;
+        right:0;
+        top: 0;
+        margin-right: -75px;
+        margin-top: -75px;
+        border: solid 3px white;
+        box-shadow: inherit;
+    }
+
+.profil h1{
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.odstavec2{
+    margin-bottom: 30px;
+}
+
+.profil a{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.twitter{
+
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.twitter a:hover{
+    background-color: #0b7bc1;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.facebook a:hover{
+    background-color: #2b406e;
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
