@@ -4,7 +4,6 @@ html { box-sizing: border-box; }
 
 body{
     background-color: #b2bec3;
-    padding-bottom: 30px;
     font-size: 18px;
 }
 
@@ -13,6 +12,7 @@ body{
     width: 550px;
     font-family: 'Nunito', sans-serif;
     text-align: justify;
+    letter-spacing: 0.05px;
     border: solid 1px grey;
     border-radius: 10px;
     padding: 30px;
@@ -27,10 +27,8 @@ body{
         weight: 150px;
         border-radius: 50%;
         position: absolute;
-        right:0;
-        top: 0;
-        margin-right: -75px;
-        margin-top: -75px;
+        right: -75px;
+        top: -75px;
         border: solid 3px white;
         box-shadow: inherit;
     }
